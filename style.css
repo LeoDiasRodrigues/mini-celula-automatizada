@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    overflow:hidden;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+canvas{
+    display:block;
+}
+
+#info{
+    position:absolute;
+    top:15px;
+    left:15px;
+
+    background:white;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    z-index:100;
+}
+
+#status{
+    margin-top:10px;
+    font-weight:bold;
+}
+
+#emergencyBtn{
+    margin-top:10px;
+
+    padding:10px 20px;
+
+    background:red;
+    color:white;
+
+    border:none;
+
+    border-radius:5px;
+
+    cursor:pointer;
+}
